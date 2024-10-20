@@ -22,7 +22,9 @@ class DatabaseSeeder extends Seeder
         $this->call([
             IndoRegionSeeder::class,
             PengeluaranSeeder::class,
-            UserSeeder::class
+            UserSeeder::class,
+            PPDBSeeder::class,
+            PembayaranDuitkuSeeder::class
         ]);
     }
 }
