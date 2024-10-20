@@ -25,7 +25,7 @@ class PendaftarSeeder extends Seeder
             'nama_ayah' => 'Ucup',
             'nama_ibu' => 'Dewi',
             'tgl_lahir_ayah' => '1975-03-15',
-            'tgl_lahir_ibu' => '1978-06-20',
+            'tgl_lahir_ibu' => '1978-06-20',//tes
         ]);
 
         Pendaftar::create([

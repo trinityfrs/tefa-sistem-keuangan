@@ -19,7 +19,7 @@ class PembayaranDuitkuSeeder extends Seeder
             'payment_method' => 'credit_card',
             'transaction_response' => 'Success',
             'callback_response' => 'Callback received successfully',
-            'status' => 1,
+            'status' => 1, //tes
         ]);
     }
 }
